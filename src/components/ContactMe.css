@@ -1,0 +1,43 @@
+.contact__me{
+    display: flex;
+    background-color: #111;
+    width: 100%;
+}
+
+.contact__left{
+    margin-top: 10px;
+   
+}
+.verticalLine {
+    border-left: thin solid #212121;
+  }
+
+  .contact__right{
+      margin-top: 10px;
+     
+     
+  }
+
+  .icons{
+      justify-content: space-around;
+      position: relative;
+      margin: 5px;
+  }
+
+  .icons p{
+      color: honeydew;
+      margin: 10px;
+  }
+
+  .icons img{
+      margin-top: 20px;
+  }
+
+.avtar__contact{
+    position: fixed;
+    right:0 !important;
+    bottom: 0;
+}
+.avtar__contact img{
+    max-width: 150px;
+}

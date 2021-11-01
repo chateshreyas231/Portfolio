@@ -1,0 +1,130 @@
+
+.body {
+  overflow: hidden;
+  height: 95vh;
+  max-width: calc(100vw);
+  background-size: 20px 20px;
+
+  position: relative;
+  text-align: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-transform: translate3d(
+    0,
+    0,
+    0
+  ); 
+}
+
+/* General name styles */
+.name {
+  outline: none;
+  text-decoration: none;
+  position: relative;
+  font-size: 8em;
+  line-height: 1;
+  color: #9e9ba4;
+  display: inline-block;
+  
+  -o-animation-delay: 0.5s;
+}
+
+
+/* effect */
+.name--effect {
+  color: #b1c0b2;
+  font-weight: 900;
+  padding: 0.1em 0 0.8em;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  animation: fadeIn ease 3s;
+-webkit-animation: fadeIn ease 5s;
+  
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+.name--effect:hover {
+  color: white;
+}
+
+.name--effect::after {
+  width: 30%;
+  left: 35%;
+  height: 100%;
+  top: 0;
+}
+
+.name--effect:hover::after {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+.name--effect h4 {
+  color: white;
+  font-weight: 400;
+  position: absolute;
+  font-size: 35px;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.name--effect h4:last-of-type {
+  top: 100%;
+  margin-top: 10px;
+  -webkit-transform: scale3d(0.8, 0.8, 1) translate3d(0, -10px, 0);
+  transform: scale3d(0.8, 0.8, 1) translate3d(0, -10px, 0);
+}
+
+.name--effect:hover h4 {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.name--effect:hover span:last-of-type {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+@media screen and (max-width: 42em) {
+  .name--effect {
+    font-size: 3.5em;
+  }
+}
+
+
+.hover_me{
+  font-size: 15px;
+}

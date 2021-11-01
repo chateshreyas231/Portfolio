@@ -1,0 +1,36 @@
+.skills {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.logo{
+  padding: 50px;
+  width: 100%;
+}
+
+.logo__single{
+  margin: 20px;
+}
+
+.logo__info{
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.tool{
+overflow-x: scroll;
+display: flex;
+}
+
+.tool__single{
+  object-fit: contain;
+    width:100%;
+    max-height: 200px;
+    padding-left: 10px;
+}

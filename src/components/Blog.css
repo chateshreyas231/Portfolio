@@ -1,0 +1,33 @@
+.blog{
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.blog::before {    
+    content: "";
+    background-image: url('./photos/Come-soon.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+.come{
+    margin: 50vh;
+    color: white;
+    font-size: 100px;
+    font-weight: 400;
+    position: relative;    
+}
+
+.come img{
+    height: 300px;
+}

@@ -1,0 +1,40 @@
+.aboutme {
+  width: 100%;
+  min-height: 100vh;
+  background-color:#111;
+  margin-right: 20px;
+}
+
+.aboutme h1 {
+  padding-top: 30px;
+  color: white;
+  font-size: 60px;
+}
+
+/* .aboutme img{
+    margin-right: 10%;
+    position: relative;
+} */
+
+
+.contain__img {
+    z-index: 1001 !important;
+    float: left;
+}
+.contain__image img{
+  margin-bottom: 150px;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 85%, rgba(0,0,0,0) );
+}
+
+
+.contain__text {
+  color: white;
+  display: inline;
+font-size: 25px;
+  }
+
+  .contain__text p{
+    margin: 30px;
+  }
+
+

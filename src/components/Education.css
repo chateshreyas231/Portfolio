@@ -1,0 +1,18 @@
+.education{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #111;
+}
+
+.container{
+    display: flex;
+    margin-top: 30px;
+}
+
+.container p{
+    color: white;
+    font-size: 25px;
+   margin-top: 30px;
+   margin-bottom: 100px;
+}
+
